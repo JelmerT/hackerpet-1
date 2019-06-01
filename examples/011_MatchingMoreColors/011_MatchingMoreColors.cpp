@@ -444,8 +444,8 @@ bool playMatchingMoreColors(){
         Log.info("Sending report");
 
         String extra = String::format(
-            "{\"start_state\":\"%c%c%c\",\"pressedSeq\":\"%s\",\"presses\":%u,"
-            "\"num_colors\":%u,\"retryGame\":%c}",
+            "{\"startState\":\"%c%c%c\",\"pressedSeq\":\"%s\",\"presses\":%u,"
+            "\"numColors\":%u,\"retryGame\":%c}",
             REPORT_COLORS[touchpadsColorStart[0]],
             REPORT_COLORS[touchpadsColorStart[1]],
             REPORT_COLORS[touchpadsColorStart[2]], pressedSeq.c_str(),
